@@ -484,5 +484,52 @@ class Program
         //         Console.WriteLine("ВЪН");
         //     }else Console.WriteLine("ПО");
         // }
+        static void zad1()
+        {
+            double n, sum;
+            sum = 0;
+            n = double.Parse(Console.ReadLine());
+            while (n >= 0)
+            {
+                sum += n;
+                n = double.Parse(Console.ReadLine());
+            }
+        
+            Console.WriteLine("sum : {0}", sum);
+        }
+        static void zad2(){
+            int n = int.Parse(Console.ReadLine());
+            double sum = 0;
+            for (int i = 0; i < n; i++)
+            {
+                double a = double.Parse(Console.ReadLine());
+                if (a%2==0)  sum += a;
+            }
+
+            if (sum < 50 )
+            {
+                Console.WriteLine("Сумата на числата е по-малка от 50 и е равна на" + sum);
+            }
+            else
+            {
+                Console.WriteLine("Сумата на числата е по-голяма от 50 и е равна на " + sum);
+            }
+        }
+
+
+        static void zad5()
+        {
+            int n = int.Parse(Console.ReadLine());
+            int counter = 0;
+            int sum = 0;
+            while (n != 0)
+            {
+                if (n % 2 == 0) sum += n;
+                else counter++;
+            
+                n = int.Parse(Console.ReadLine());
+            }
+            Console.WriteLine("sum : {0}, count: {1}", sum, counter);
+        }
     }
 }
