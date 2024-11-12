@@ -4,17 +4,26 @@
 
 
 
-class Program
+internal class Program
 {
-    static int sum()
-    {
-        int result = 0;
-        return 1;
-    }
-
     static void Main(string[] args)
     {
-        // Писане в конзолата (стандартен изход)
+        Drob drob = new Drob(2, 8);
+        Drob drob1 = new Drob(5, 10);
+
+        Drob.print(Drob.umnojenie(drob, drob1));
+        Drob.print(Drob.delenie(drob, drob1));
+        Drob.print(Drob.sum(drob, drob1));
+        Drob.print(Drob.minus(drob, drob1));
+
+        Player ivan = new Player("Ivan", 12);
+
+    }
+
+}
+
+
+// Писане в конзолата (стандартен изход)
         // Console.WriteLine("Hello, World!");
         // Console.Write("Hello, World!"); //strings
         // Console.Write("Hello, World! \n");
@@ -488,52 +497,50 @@ class Program
         //         Console.WriteLine("ВЪН");
         //     }else Console.WriteLine("ПО");
         // }
-        static void zad1()
-        {
-            double n, sum;
-            sum = 0;
-            n = double.Parse(Console.ReadLine());
-            while (n >= 0)
-            {
-                sum += n;
-                n = double.Parse(Console.ReadLine());
-            }
-        
-            Console.WriteLine("sum : {0}", sum);
-        }
-        static void zad2(){
-            int n = int.Parse(Console.ReadLine());
-            double sum = 0;
-            for (int i = 0; i < n; i++)
-            {
-                double a = double.Parse(Console.ReadLine());
-                if (a%2==0)  sum += a;
-            }
-
-            if (sum < 50 )
-            {
-                Console.WriteLine("Сумата на числата е по-малка от 50 и е равна на" + sum);
-            }
-            else
-            {
-                Console.WriteLine("Сумата на числата е по-голяма от 50 и е равна на " + sum);
-            }
-        }
-
-
-        static void zad5()
-        {
-            int n = int.Parse(Console.ReadLine());
-            int counter = 0;
-            int sum = 0;
-            while (n != 0)
-            {
-                if (n % 2 == 0) sum += n;
-                else counter++;
-            
-                n = int.Parse(Console.ReadLine());
-            }
-            Console.WriteLine("sum : {0}, count: {1}", sum, counter);
-        }
-    }
-}
+    //     static void zad1()
+    //     {
+    //         double n, sum;
+    //         sum = 0;
+    //         n = double.Parse(Console.ReadLine());
+    //         while (n >= 0)
+    //         {
+    //             sum += n;
+    //             n = double.Parse(Console.ReadLine());
+    //         }
+    //     
+    //         Console.WriteLine("sum : {0}", sum);
+    //     }
+    //     static void zad2(){
+    //         int n = int.Parse(Console.ReadLine());
+    //         double sum = 0;
+    //         for (int i = 0; i < n; i++)
+    //         {
+    //             double a = double.Parse(Console.ReadLine());
+    //             if (a%2==0)  sum += a;
+    //         }
+    //
+    //         if (sum < 50 )
+    //         {
+    //             Console.WriteLine("Сумата на числата е по-малка от 50 и е равна на" + sum);
+    //         }
+    //         else
+    //         {
+    //             Console.WriteLine("Сумата на числата е по-голяма от 50 и е равна на " + sum);
+    //         }
+    //     }
+    //
+    //
+    //     static void zad5()
+    //     {
+    //         int n = int.Parse(Console.ReadLine());
+    //         int counter = 0;
+    //         int sum = 0;
+    //         while (n != 0)
+    //         {
+    //             if (n % 2 == 0) sum += n;
+    //             else counter++;
+    //         
+    //             n = int.Parse(Console.ReadLine());
+    //         }
+    //         Console.WriteLine("sum : {0}, count: {1}", sum, counter);
+    //     }

@@ -9,6 +9,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d5e9f71f-0760-4539-af15-f9ea03a6d1fe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IntroToCs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntroToCs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Drob.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Drob.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +102,8 @@
       <workItem from="1729606392038" duration="47000" />
       <workItem from="1729687171679" duration="194000" />
       <workItem from="1730294560476" duration="183000" />
+      <workItem from="1731049407851" duration="437000" />
+      <workItem from="1731423598292" duration="1686000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -149,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729687191846</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Drob - Homeword">
+      <option name="closed" value="true" />
+      <created>1731049512593</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731049512594</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +223,7 @@
     <MESSAGE value="Week 2 problems&#10;if statements and boolean expressions" />
     <MESSAGE value="if, for, while" />
     <MESSAGE value="23.10 - Upr" />
-    <option name="LAST_COMMIT_MESSAGE" value="23.10 - Upr" />
+    <MESSAGE value="Drob - Homeword" />
+    <option name="LAST_COMMIT_MESSAGE" value="Drob - Homeword" />
   </component>
 </project>
