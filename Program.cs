@@ -1,22 +1,109 @@
 ﻿namespace IntroToCs;
 
-
-
-
-
 internal class Program
 {
     static void Main(string[] args)
     {
-        Drob drob = new Drob(2, 8);
-        Drob drob1 = new Drob(5, 10);
+        double money = double.Parse(Console.ReadLine());
 
-        Drob.print(Drob.umnojenie(drob, drob1));
-        Drob.print(Drob.delenie(drob, drob1));
-        Drob.print(Drob.sum(drob, drob1));
-        Drob.print(Drob.minus(drob, drob1));
+        Lina lina = new Lina(money);
+        string command = Console.ReadLine();
 
-        Player ivan = new Player("Ivan", 12);
+        while (command != "mall. Enter")
+        {
+             command = Console.ReadLine();
+        }
+     
+        while (command != "mall.Exit")
+        {
+            command = Console.ReadLine();
+            lina.executeCommand(command);
+        }
+        Console.WriteLine($"Purchases: {lina.Purchases}, Money: {lina.Money}");
+        
+        
+        
+        // // Az jiveq w Sofia i prepodawam w NEG ot 4 godini
+        //
+        // string s = Console.ReadLine();
+        // string[] stringSep = s.Split(" ");
+        // foreach (var item in stringSep)
+        // {
+        //     if (item.Length > 3)
+        //     {
+        //         Console.Write(item);
+        //     }
+        // }
+        
+        //
+        // foreach (var item in list)
+        // {
+        //     Console.WriteLine(item);
+        // }
+
+        //
+        // List<int> list = new List<int>();
+        // int i = 0;
+        // while (i < 10)
+        // {
+        //     list.Add(int.Parse(Console.ReadLine()));
+        //     i++;
+        // }
+        //
+        // int product = 1;
+        // foreach (int item in list)
+        // {
+        //     if (item % 2 == 0)
+        //     {
+        //         product *= item;
+        //     }
+        // }
+        // Console.WriteLine(product);
+
+        // List<string> list2 = new List<string>();
+        //
+        // for (int i = 2; i < 100; i+=2)
+        // {
+        //     list2.Add(i.ToString() + "ivan");
+        // }
+        //
+        // foreach (var i in list2)
+        // {
+        //     Console.WriteLine(i);
+        // }
+        //
+
+        //
+        // //                0  1  2  3  4  5   6
+        // int[] numbers = { 1, 2, 3, 4, 5, 6 , 10};
+        // char[] chars = { 'I', 'V' ,'A', 'N'};
+        // int [] numbers2 = new int [10];
+        //
+        // for (int i = 0; i < numbers2.Length; i++)
+        // {
+        //     Console.Write(numbers2[i]);
+        // }
+        //
+        // // numbers[6] = 2;
+        // Console.WriteLine(numbers[6]);
+        // for (int i = 0; i < chars.Length; i++)
+        // {
+        //     Console.Write(chars[i]);
+        // }
+
+
+        //
+        // Drob drob = new Drob(2, 8);
+        // Drob drob1 = new Drob(5, 10);
+        //
+        // Drob.print(Drob.umnojenie(drob, drob1));
+        // Drob.print(Drob.delenie(drob, drob1));
+        // Drob.print(Drob.sum(drob, drob1));
+        // Drob.print(Drob.minus(drob, drob1));
+        // List<int> newList = new List<int>();
+        // newList.Add(1);
+        //
+        // Player ivan = new Player("Ivan", 12);
 
     }
 
