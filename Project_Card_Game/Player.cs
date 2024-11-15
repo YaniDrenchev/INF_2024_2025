@@ -1,4 +1,4 @@
-namespace IntroToCs;
+namespace IntroToCs.Project_Card_Game;
 
 public class Player
 {

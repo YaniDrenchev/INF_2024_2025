@@ -1,12 +1,23 @@
 namespace IntroToCs;
 
+// Task from Softuni 
+// https://csharp-book.softuni.bg/chapter-09-problems-for-champions-part-2.html
 public class Lina
 {
     private double money;
     private int purchases;
-    
-    public int Purchases { get => purchases; set => purchases = value; }
-    public double Money { get => money; set => money = value; }
+
+    public int Purchases
+    {
+        get => purchases;
+        set => purchases = value;
+    }
+
+    public double Money
+    {
+        get => money;
+        set => money = value;
+    }
 
     public Lina(double money)
     {
@@ -33,15 +44,24 @@ public class Lina
                         money = money - 0.5 * a;
                         purchases++;
                     }
-                }else if (Char.IsLower(a))
+                }
+                else if (Char.IsLower(a))
                 {
-                    if (money >= 0.3 * a){ money = money + 0.3 * a;purchases++;}
-                    
+                    if (money >= 0.3 * a)
+                    {
+                        money = money + 0.3 * a;
+                        purchases++;
+                    }
                 }
                 else
                 {
-                    if (money >= a){ money = money - a;purchases++;}
+                    if (money >= a)
+                    {
+                        money = money - a;
+                        purchases++;
+                    }
                 }
+
                 break;
         }
     }

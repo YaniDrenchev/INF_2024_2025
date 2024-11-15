@@ -8,9 +8,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5e9f71f-0760-4539-af15-f9ea03a6d1fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Arrays.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lina.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intro/Arrays.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intro/Cast_ConditionalStatments.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intro/Loops.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intro/Variables_Console_printing.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.IntroToCs/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntroToCs/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IntroToCs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntroToCs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Card_Game/Board.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Card.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Card_Game/Card.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lina.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lina.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Card_Game/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +28,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DpaMonitoringSettings">
-    <option name="autoShow" value="false" />
+    <option name="firstShow" value="false" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,21 +61,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.IntroToCs.executor": "Run",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.IntroToCs.executor&quot;: &quot;Run&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="IntroToCs" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -108,6 +119,8 @@
       <workItem from="1731049407851" duration="437000" />
       <workItem from="1731423598292" duration="4581000" />
       <workItem from="1731496861748" duration="4413000" />
+      <workItem from="1731675414942" duration="2275000" />
+      <workItem from="1731677701267" duration="168000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -227,7 +240,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="initial" />
     <MESSAGE value="Tasks from 24.09" />
