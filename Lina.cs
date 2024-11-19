@@ -27,42 +27,37 @@ public class Lina
 
     public void executeCommand(string command)
     {
-        switch (command)
+        char symbol = command[0];
+        if (symbol == '%')
         {
-            case "%":
-                money = money / 2;
-                break;
-            case "*":
-                money = money + 10;
-                break;
-            default:
-                char a = command[0];
-                if (Char.IsUpper(a))
-                {
-                    if (money >= 0.5 * a)
-                    {
-                        money = money - 0.5 * a;
-                        purchases++;
-                    }
-                }
-                else if (Char.IsLower(a))
-                {
-                    if (money >= 0.3 * a)
-                    {
-                        money = money + 0.3 * a;
-                        purchases++;
-                    }
-                }
-                else
-                {
-                    if (money >= a)
-                    {
-                        money = money - a;
-                        purchases++;
-                    }
-                }
-
-                break;
+            money /= 2;
+            purchases++;
+        }else if (symbol == '*')
+        {
+            money += 10;
+        }else if (Char.IsUpper(symbol))
+        {
+            if (money >= 0.5 * symbol)
+            {
+                money -= 0.5 * symbol;
+                purchases++;
+            }
+        }else if (Char.IsLower(symbol))
+        {
+            if (money >= 0.3 * symbol)
+            {
+                money -= 0.3 * symbol;
+                purchases++;
+            }
         }
+        else
+        {
+            if (money >= symbol)
+            {
+                money -= symbol;
+                purchases++;
+            }
+        }
+       
     }
 }

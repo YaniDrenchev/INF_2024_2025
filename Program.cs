@@ -11,7 +11,7 @@ internal class Program
         Lina lina = new Lina(money);
         string command = Console.ReadLine();
 
-        while (command != "mall. Enter")
+        while (command != "mall.Enter")
         {
              command = Console.ReadLine();
         }
@@ -19,11 +19,13 @@ internal class Program
         while (command != "mall.Exit")
         {
             command = Console.ReadLine();
+            if (command == "mall.Exit")
+            {
+                break;
+            }
             lina.executeCommand(command);
         }
         Console.WriteLine($"Purchases: {lina.Purchases}, Money: {lina.Money}");
-        
-        
         
         //
         // Drob drob = new Drob(2, 8);

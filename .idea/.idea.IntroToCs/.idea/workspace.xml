@@ -8,18 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5e9f71f-0760-4539-af15-f9ea03a6d1fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/intro/Arrays.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/intro/Cast_ConditionalStatments.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/intro/Loops.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/intro/Variables_Console_printing.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.IntroToCs/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntroToCs/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IntroToCs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntroToCs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Board.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Card_Game/Board.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Card.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Card_Game/Card.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lina.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lina.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Card_Game/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,14 +32,11 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/YaniDrenchev/INF_2024_2025&quot;,
-    &quot;accountId&quot;: &quot;889408df-92d7-4d68-9d8b-3565482c2a5a&quot;
+    &quot;accountId&quot;: &quot;18334739-71e5-4f28-af8d-123e7015da8f&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2ccd2056ec55b7b67558d52e32a887ed5ac7e346fc429b218c188d0a99cb5be/Console.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/71f8a5297672ad56962c6af62f7241a092ad7d95eaee4ef564601be5d8e37b38/Int32.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/89c4224f79e6b275db5cce1623a97eec6e1bbd4755a617dd36d073d2347236a5/String.Manipulation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e747192abb38e2df82cbdb37e721567726f559914a7b81f8b26ba537de632f4/List.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6d2342c247c64eb7a9b3702e481e4443f83e00/41/c0b4bbe3/String.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -61,23 +48,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Project.IntroToCs.executor&quot;: &quot;Run&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Project.IntroToCs.executor": "Debug",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="IntroToCs" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -121,6 +108,9 @@
       <workItem from="1731496861748" duration="4413000" />
       <workItem from="1731675414942" duration="2275000" />
       <workItem from="1731677701267" duration="168000" />
+      <workItem from="1731677874646" duration="395000" />
+      <workItem from="1731775133523" duration="1140000" />
+      <workItem from="1732027738645" duration="894000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -186,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731427694465</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Some folder changes and refactoring">
+      <option name="closed" value="true" />
+      <created>1731678035117</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1731678035117</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +247,26 @@
     <MESSAGE value="23.10 - Upr" />
     <MESSAGE value="Drob - Homeword" />
     <MESSAGE value="Card game - Voina" />
-    <option name="LAST_COMMIT_MESSAGE" value="Card game - Voina" />
+    <MESSAGE value="Some folder changes and refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some folder changes and refactoring" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Program.cs</url>
+          <line>8</line>
+          <properties documentPath="$PROJECT_DIR$/Program.cs" containingFunctionPresentation="Method 'Main'">
+            <startOffsets>
+              <option value="99" />
+            </startOffsets>
+            <endOffsets>
+              <option value="147" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
