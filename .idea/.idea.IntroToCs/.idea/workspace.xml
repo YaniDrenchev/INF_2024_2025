@@ -7,10 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5e9f71f-0760-4539-af15-f9ea03a6d1fe" name="Changes" comment="">
+    <list default="true" id="d5e9f71f-0760-4539-af15-f9ea03a6d1fe" name="Changes" comment="Lina - fixed">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IntroToCs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntroToCs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lina.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lina.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_Card_Game/Board.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Card_Game/Board.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_Card_Game/Card.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Card_Game/Card.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Project.IntroToCs.executor": "Debug",
+    ".NET Project.IntroToCs.executor": "Run",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -110,7 +111,7 @@
       <workItem from="1731677701267" duration="168000" />
       <workItem from="1731677874646" duration="395000" />
       <workItem from="1731775133523" duration="1140000" />
-      <workItem from="1732027738645" duration="894000" />
+      <workItem from="1732027738645" duration="2688000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -184,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731678035117</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Lina - fixed">
+      <option name="closed" value="true" />
+      <created>1732028700704</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1732028700705</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,25 +257,7 @@
     <MESSAGE value="Drob - Homeword" />
     <MESSAGE value="Card game - Voina" />
     <MESSAGE value="Some folder changes and refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some folder changes and refactoring" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Program.cs</url>
-          <line>8</line>
-          <properties documentPath="$PROJECT_DIR$/Program.cs" containingFunctionPresentation="Method 'Main'">
-            <startOffsets>
-              <option value="99" />
-            </startOffsets>
-            <endOffsets>
-              <option value="147" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Lina - fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lina - fixed" />
   </component>
 </project>

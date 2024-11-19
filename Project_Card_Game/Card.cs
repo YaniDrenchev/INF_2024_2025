@@ -2,15 +2,12 @@ namespace IntroToCs.Project_Card_Game;
 
 public class Card
 {
-    private string color;
     private string symbol;
 
-    public Card(string symbol, string color)
+    public Card(string symbol)
     {
         this.symbol = symbol;
-        this.color = color;
     }
     
     public string Symbol { get => symbol; set => symbol = value; }
-    public string Color { get => color; set => color = value; }
 }

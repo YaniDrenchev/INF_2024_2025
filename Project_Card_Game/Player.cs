@@ -2,11 +2,13 @@ namespace IntroToCs.Project_Card_Game;
 
 public class Player
 {
-    private Card cards;
+    private List<Card> _cards;
     private string playerName;
     private int age;
     
-    public Card Cards { get => cards; set => cards = value; }
+    
+    
+    public List<Card> Cards { get => _cards; set => _cards = value; }
     public string PlayerName
     {
         get => playerName;
@@ -27,12 +29,17 @@ public class Player
 
     public Card getCard()
     {
-        return new Card("K", "red");
+        return _cards.First();
+    }
+    public void giveCard(Card card)
+    { 
+        _cards.Add(card);
     }
 
     public void winCards(Card a, Card b)
     {
-        
+        _cards.Add(a);
+        _cards.Add(b);
     }
     public void winCards(Card a, Card b, Card c, Card d, Card e, Card f, Card g, Card h)
     {
