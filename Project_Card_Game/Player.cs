@@ -2,11 +2,8 @@ namespace IntroToCs.Project_Card_Game;
 
 public class Player
 {
-    private List<Card> _cards;
+    private List<Card> _cards = new List<Card>();
     private string playerName;
-    private int age;
-    
-    
     
     public List<Card> Cards { get => _cards; set => _cards = value; }
     public string PlayerName
@@ -14,35 +11,24 @@ public class Player
         get => playerName;
         set => playerName = value;
     }
-
-    public int Age
-    {
-        get => age;
-        set => age = value;
-    }
-
     public Player(string playerName, int age)
     {
         this.playerName = playerName;
-        this.age = age;
     }
 
-    public Card getCard()
+    public Card putCardOnTable()
     {
-        return _cards.First();
+        Console.WriteLine($"Player Name: {playerName} put card on the table {_cards.First().Symbol} " );
+        if (_cards.Count == 0)
+        {
+            return null; 
+        }
+        Card card = _cards.First();
+        _cards.Remove(card);
+        return card;
     }
-    public void giveCard(Card card)
+    public void getCard(Card card)
     { 
         _cards.Add(card);
-    }
-
-    public void winCards(Card a, Card b)
-    {
-        _cards.Add(a);
-        _cards.Add(b);
-    }
-    public void winCards(Card a, Card b, Card c, Card d, Card e, Card f, Card g, Card h)
-    {
-        // TODO getIntoTheDeck
     }
 }

@@ -7,11 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5e9f71f-0760-4539-af15-f9ea03a6d1fe" name="Changes" comment="Lina - fixed">
+    <list default="true" id="d5e9f71f-0760-4539-af15-f9ea03a6d1fe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IntroToCs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntroToCs/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project_Card_Game/Board.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Card_Game/Board.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Card_Game/Card.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Card_Game/Card.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_Card_Game/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Card_Game/Player.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +38,7 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6d2342c247c64eb7a9b3702e481e4443f83e00/41/c0b4bbe3/String.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c9f1e78ef04f5214281bc448c6a251bb5f9a3135b662f76745bbfb39b14150/First.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -111,7 +112,10 @@
       <workItem from="1731677701267" duration="168000" />
       <workItem from="1731677874646" duration="395000" />
       <workItem from="1731775133523" duration="1140000" />
-      <workItem from="1732027738645" duration="2688000" />
+      <workItem from="1732027738645" duration="3887000" />
+      <workItem from="1732094012994" duration="243000" />
+      <workItem from="1732094389610" duration="28000" />
+      <workItem from="1732101087011" duration="3704000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -193,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732028700705</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Card game - continue">
+      <option name="closed" value="true" />
+      <created>1732032817785</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1732032817785</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,6 +270,26 @@
     <MESSAGE value="Card game - Voina" />
     <MESSAGE value="Some folder changes and refactoring" />
     <MESSAGE value="Lina - fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lina - fixed" />
+    <MESSAGE value="Card game - continue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Card game - continue" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Project_Card_Game/Board.cs</url>
+          <line>41</line>
+          <properties documentPath="$PROJECT_DIR$/Project_Card_Game/Board.cs" containingFunctionPresentation="Method 'deal'">
+            <startOffsets>
+              <option value="1113" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1149" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
